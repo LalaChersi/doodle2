@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Hello World"
+cd /home/dns/dns
+rm -rf fun
+dig +short myip.opendns.com @resolver1.opendns.com >> fun
+git add .
+git commit -m "Commit"
+git push https://LalaChersi:987654321x@github.com/LalaChersi/doodle2 master
